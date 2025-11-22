@@ -1,11 +1,11 @@
 ## 🚀 Vagou - Sistema de Gerenciamento de Vagas
 Sistema completo para gerenciamento de vagas de emprego desenvolvido em Spring Boot com segurança JWT.
 
-👨‍💻 Integrantes
+## 👨‍💻 Integrantes
 Pedro Henrique Silva de Morais - RM98804
 Lucas Rodrigues Delfino - RM550196
 
-📋 Sobre o Projeto
+## 📋 Sobre o Projeto
 O Vagou é uma API RESTful para plataforma de vagas de emprego que permite:
 
 📊 Gerenciamento de vagas
@@ -18,7 +18,7 @@ O Vagou é uma API RESTful para plataforma de vagas de emprego que permite:
 
 📱 API documentada com Swagger
 
-🛠 Tecnologias Utilizadas
+##  🛠 Tecnologias Utilizadas
 Java 21
 
 Spring Boot 3.5.7
@@ -37,21 +37,7 @@ Maven - Gerenciamento de dependências
 
 Jakarta Validation - Validação de dados
 
-🏗 Estrutura do Projeto
-text
-src/main/java/br/com/fiap/
-├── config/          # Configurações (Swagger, Security)
-├── controller/      # Controladores REST
-├── entity/         # Entidades JPA
-├── dto/            # Data Transfer Objects
-├── service/        # Lógica de negócio
-├── repository/     # Interfaces de persistência
-├── security/       # Configurações de segurança
-├── exception/      # Tratamento de exceções
-├── enums/          # Enumeradores
-└── vo/             # Value Objects
-
-👥 Perfis de Usuário
+## 👥 Perfis de Usuário
 
 CANDIDATO - Pode se candidatar a vagas
 
@@ -59,12 +45,12 @@ RECRUTADOR - Pode criar e gerenciar vagas
 
 ADMIN - Acesso completo ao sistema
 
-🚀 Como Executar
+##  🚀 Como Executar
 Pré-requisitos
 Java 21
 Maven 3.6+
 
-📚 Endpoints da API
+##  📚 Endpoints da API
 Autenticação (Público)
 POST /auth/register - Registrar candidato
 
@@ -99,7 +85,7 @@ PUT /api/users/{id} - Atualizar usuário
 
 DELETE /api/users/{id} - Excluir usuário (Admin)
 
-🔐 Segurança
+## 🔐 Segurança
 Autenticação via JWT (JSON Web Token)
 
 Autorização baseada em roles
@@ -127,7 +113,7 @@ Vaga - Vagas de emprego
 
 Candidatura - Candidaturas às vagas
 
-📖 Documentação da API
+## 📖 Documentação da API
 Swagger UI
 Acesse a documentação interativa em:
 
@@ -137,18 +123,19 @@ OpenAPI JSON
 text
 http://localhost:8080/api-docs
 
-🧪 Testes Manuais Recomendados
-1. Configuração Inicial
+## 🧪 Testes Manuais Recomendados
+### 1. Configuração Inicial
 bash
-# Health Check
+Health Check
 GET http://localhost:8080/health
 
-# Acessar Swagger
+Acessar Swagger
 GET http://localhost:8080/swagger-ui.html
 
-# Acessar H2 Console  
+Acessar H2 Console  
 GET http://localhost:8080/h2-console
-2. Fluxo Completo de Teste
+
+## 2. Fluxo Completo de Teste
 Registrar recrutador
 
 Fazer login e obter token
@@ -163,7 +150,7 @@ Candidatar-se a vagas
 
 Gerenciar candidaturas
 
-⚙ Configurações
+## ⚙ Configurações
 application.properties
 properties
 # Servidor
@@ -181,9 +168,9 @@ jwt.expiration=86400000
 springdoc.api-docs.path=/api-docs
 springdoc.swagger-ui.path=/swagger-ui.html
 
-🎯 Funcionalidades Principais
+## 🎯 Funcionalidades Principais
 
-✅ Implementadas
+## ✅ Implementadas
 CRUD completo de vagas
 
 Sistema de candidaturas
@@ -202,7 +189,7 @@ Banco H2 em memória
 
 CORS configurado
 
-🔄 Em Desenvolvimento
+## 🔄 Em Desenvolvimento
 
 Paginação e filtros avançados
 
@@ -212,7 +199,7 @@ Notificações por email
 
 Dashboard administrativo
 
-🤝 Contribuição
+## 🤝 Contribuição
 Fork o projeto
 
 Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
@@ -223,5 +210,5 @@ Push para a branch (git push origin feature/AmazingFeature)
 
 Abra um Pull Request
 
-📞 Suporte
+## 📞 Suporte
 Em caso de dúvidas ou problemas, abra uma issue no repositório ou entre em contato com a equipe de desenvolvimento.
