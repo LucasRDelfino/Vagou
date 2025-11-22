@@ -1,4 +1,4 @@
-🚀 Vagou - Sistema de Gerenciamento de Vagas
+## 🚀 Vagou - Sistema de Gerenciamento de Vagas
 Sistema completo para gerenciamento de vagas de emprego desenvolvido em Spring Boot com segurança JWT.
 
 👨‍💻 Integrantes
@@ -62,26 +62,7 @@ ADMIN - Acesso completo ao sistema
 🚀 Como Executar
 Pré-requisitos
 Java 21
-
 Maven 3.6+
-
-Execução Local
-bash
-# Clone o projeto
-git clone https://github.com/seu-usuario/vagou.git
-
-# Entre no diretório
-cd vagou
-
-# Execute a aplicação
-mvn spring-boot:run
-Build e Execução
-bash
-# Fazer build
-mvn clean package
-
-# Executar
-java -jar target/Vagou-0.0.1-SNAPSHOT.jar
 
 📚 Endpoints da API
 Autenticação (Público)
