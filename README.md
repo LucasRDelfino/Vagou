@@ -153,18 +153,19 @@ Gerenciar candidaturas
 ## ⚙ Configurações
 application.properties
 properties
-# Servidor
+
+Servidor
 server.port=8080
 
-# Banco H2
+Banco H2
 spring.datasource.url=jdbc:h2:mem:vagasdb
 spring.h2.console.enabled=true
 
-# JWT
+JWT
 jwt.secret=mySecretKeymySecretKeymySecretKeymySecretKey
 jwt.expiration=86400000
 
-# Swagger
+Swagger
 springdoc.api-docs.path=/api-docs
 springdoc.swagger-ui.path=/swagger-ui.html
 
